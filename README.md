@@ -1,4 +1,14 @@
 # Agent PR Reviewer
+## Few Points
+- Created using Cursor (VSC fork, free tier with auto)
+- Cursor works with agentic loop directly inside the IDE.
+- Claude Code uses agentic loop (sophisticated) but outside any IDE. purely like a bash script
+- GH Copilot is primairly a VSC Extension (I know supports other IDE but VSC is the top priority), uses Extension Hosting + Its own pipeline. Catching up with Copilot cli
+
+## Design
+- You can leverage existing scripts for scan,repeatative tasks and package them into SKILLS to be used by AI
+- SKILL.md - once packaged, can be used by human, or AI custom Agents or directly the native AI (like Cursor, GHCopilot)
+- Think SKILLS and then Agents (build only when needed). All AI tools have started having their built-in agents like explore,bash so augment your AI design using skills first.
 
 ## 1. Python Script for Security Scanning
 
